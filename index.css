@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    margin-top: 10px;
+    grid:block
+}
+
+.score {
+    font-family: "Orbitron";
+    font-size: 24pt;
+}

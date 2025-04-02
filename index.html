@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <span id="home-score" class="score">0</span>
+                <div class="buttons">
+                    <button onclick="add1PointHome()">+1</button>
+                    <button onclick="add2PointHome()">+2</button>
+                    <button onclick="add3PointHome()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <span id="guest-score" class="score">0</span>
+                <div class="buttons">
+                    <button onclick="add1PointGuest()">+1</button>
+                    <button onclick="add2PointGuest()">+2</button>
+                    <button onclick="add3PointGuest()">+3</button>
+                </div>                
+            </div>
+        </div>
+        <div>
+            <button onclick="resetScores()">Reset Scores</button>
+        </div>        
+        <script src="index.js"></script>
+    </body>
+</html>
